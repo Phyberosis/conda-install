@@ -1,7 +1,8 @@
 # conda package
 cd ./conda-install
 conda build .
-
+# look at output for <PATH>
+anaconda upload <PATH>
 
 # add token
 conda config --add channels https://conda.anaconda.org/t/<TOKEN>/tony-xy-liu
