@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: testpk
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/Tony-xy-Liu/Limes
+Author: Tony Liu
+Author-email: contacttonyliu@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Tony-xy-Liu/Limes/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Test
+Just a test package
+

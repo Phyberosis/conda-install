@@ -1,0 +1,23 @@
+{% set name = "testpk" %}
+{% set version = "0.0.1" %}
+
+package:
+  name: tony-xy-liu-{{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: "https://test.pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
+  
+build:
+  noarch: python
+  number: 0
+  # script: {{ PYTHON }} -m pip install testpk/ -vv
+  script: python -m pip install --no-deps --ignore-installed .
+
+requirements:
+  host:
+    - python
+    - numpy   1.21
+  run:
+    - python
+    - numpy   1.21

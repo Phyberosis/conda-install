@@ -1,0 +1,13 @@
+# conda package
+cd ./conda-install
+conda build .
+
+
+# add token
+conda config --add channels https://conda.anaconda.org/t/<TOKEN>/tony-xy-liu
+anaconda auth --create --name YOUR-TOKEN-NAME --scopes "all"
+
+#requirements
+conda install conda-build
+conda install anaconda-client
+conda install twine
